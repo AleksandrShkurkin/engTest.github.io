@@ -1,0 +1,155 @@
+﻿html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+}
+
+div.right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: green;
+    text-align: center;
+}
+
+div.window {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+div.roundCount {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 3%;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+div.windowTest {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: solid 7px rgba(00, 00, 00, 0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+div.wrong {
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+div.answers {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 30%;
+}
+
+div.textBox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+}
+
+form.input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+input.inputBox {
+    display: none;
+    width: 20%;
+    height: 30%;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    min-width: 285px;
+}
+
+div.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+button.start {
+    width: 20%;
+    height: 40%;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: burlywood;
+    min-width: 180px;
+}
+
+button.action {
+    display: none;
+    width: 20%;
+    height: 40%;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color: burlywood;
+    min-width: 147px;
+}
+
+@media screen and (max-width: 715px)
+{
+    div.right {
+        font-size: 20px;
+    }
+    div.wrong {
+        font-size: 20px;
+    }
+    div.windowTest {
+        font-size: 30px;
+    }
+}
